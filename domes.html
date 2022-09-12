@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>ART Gallery</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+<!-- 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/select.css">
+	<link rel="stylesheet" href="css/lib.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/domes.css">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- <meta name="robots" content="noindex, nofollow" /> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<script> var calendarLang = 'ru'; </script>
+	<div class="wrapper">
+		<main class="page">
+			<!-- @import "header.html" -->
+			<header class="header">
+				<div class="header__container">
+				  <a href="#" class="logo">Portfolio</a>
+				  <div class="toggle" onclick="toggleMenu();"></div>
+				  <div class="header__menu menu">
+					<div class="menu__icon">
+					  <span></span>
+					</div>
+					<nav class="menu__body">
+					  <ul class="menu__list">
+						<li>
+						  <a href="index.html" class="menu__link">Главная</a>
+						  <span class="menu__arrow"></span>
+						</li>
+						<li>
+						  <a href="" class="menu__link">О Нас</a>
+						  <span class="menu__arrow"></span>
+						  <ul class="menu__sub-list">
+							<li>
+							  <a href="" class="menu__sub-link">История глэмпинга</a>
+							</li>
+							<li>
+							  <a href="" class="menu__sub-link">Отзывы клиентов</a>
+							</li>
+							<li>
+							  <a href="" class="menu__sub-link">Награды</a>
+							</li>
+						  </ul>
+						</li>
+						<li>
+						  <a href="/../domes.html" target="_blank" class="menu__link">Номера</a>
+						  <span class="menu__arrow"></span>
+						  <ul class="menu__sub-list">
+							<li>
+							  <a href="domes.html" target="_blank" class="menu__sub-link">Стандартный</a>
+							</li>
+							<li>
+							  <a href="" class="menu__sub-link">Люкс</a>
+							</li>
+							<li>
+							  <a href="" class="menu__sub-link">Другие</a>
+							</li>
+						  </ul>
+						</li>
+						<li>
+						  <a href="" class="menu__link">Услуги</a>
+						  <span class="menu__arrow"></span>
+						  <ul class="menu__sub-list">
+							<li>
+							  <a href="" class="menu__sub-link">Наше Кафе</a>
+							</li>
+							<li>
+							  <a href="" class="menu__sub-link">Баня</a>
+							</li>
+							<li>
+							  <a href="" class="menu__sub-link">Активный отдых</a>
+							</li>
+						  </ul>
+						</li>
+						<li>
+						  <a href="" class="menu__link">Контакты</a>
+						  <span class="menu__arrow"></span>
+						  <ul class="menu__sub-list">
+							<li>
+							  <a href="" class="menu__sub-link">Наш адрес</a>
+							</li>
+							<li>
+							  <a href="" class="menu__sub-link">Форма обратной связи</a>
+							</li>
+							<li>
+							  <a href="" class="menu__sub-link">Телефоны</a>
+							</li>
+						  </ul>
+						</li>
+					  </ul>
+					</nav>
+				  </div>
+				</div>
+			  </header>
+			  
+			<section class="domes">
+				<img class="domes__background ibg" alt="номер" src="img/domes/img1_large.jpg" id="slider">
+				<ul class="navigation">
+					<li class="domes__punkt" onmouseenter="imgSlider('img/rooms_01.jpg')"><img alt="номер" src="img/rooms_01.jpg">
+					<p class="domes__sub_01">  Лесная идиллия <br> -Двухместный номер -Площадь 8 кв.м. -Туалет и душ -Двуспальная кровать -Сейф <br>
+						<a class="domes__btn" href="#">Подробнее</a></p>
+					<p class="domes__subtitle">Лесная идиллия</p>
+					</li>
+
+					<li class="domes__punkt" onmouseenter="imgSlider('img/rooms_02.jpeg')"><img alt="номер" src="img/rooms_02.jpeg">
+						<p class="domes__sub_02">Семейный <br> -Двухместный номер -Площадь 8 кв.м. -Туалет и душ -Двуспальная кровать -Сейф <br>
+							<a class="domes__btn" href="#">Подробнее</a></p>
+						<p class="domes__subtitle">Семейный</p>
+					</li>
+					<li class="domes__punkt" onmouseenter="imgSlider('img/rooms_04.jpg')"><img alt="номер" src="img/rooms_04.jpg">
+						<p class="domes__sub_03"> Стандартный <br> -Двухместный номер -Площадь 8 кв.м. -Туалет и душ -Двуспальная кровать -Сейф <br>
+							<a class="domes__btn" href="#">Подробнее</a></p>
+						<p class="domes__subtitle">Стандартный</p></li>
+					<li class="domes__punkt" onmouseenter="imgSlider('img/Canggu_Air_Bnbs-11_1024x1024.jpg')"><img alt="номер" src="img/Canggu_Air_Bnbs-11_1024x1024.jpg">
+						<p class="domes__sub_04"> Люкс <br> -Двухместный номер -Площадь 8 кв.м. -Туалет и душ -Двуспальная кровать -Сейф <br>
+							<a class="domes__btn" href="#">Подробнее</a></p>
+						<p class="domes__subtitle">Люкс</p>
+					</li>
+					<li class="domes__punkt" onmouseenter="imgSlider('img/rooms_05.jpg')"><img alt="номер" src="img/rooms_05.jpg">
+						<p class="domes__sub_05">Премиум с терассой и мангалом <br> -Двухместный номер -Площадь 8 кв.м. -Туалет и душ -Двуспальная кровать -Сейф <br>
+							<a class="domes__btn" href="#">Подробнее</a></p>
+						<p class="domes__subtitle">Премиум с терассой и мангалом</p>
+					</li>
+					<li class="domes__punkt" onmouseenter="imgSlider('img/rooms_02.jpg')"><img alt="номер" src="img/rooms_02.jpg">
+						<p class="domes__sub_06">Люкс премиум с джакузи <br> -Двухместный номер -Площадь 8 кв.м. -Туалет и душ -Двуспальная кровать -Сейф <br>
+							<a class="domes__btn" href="#">Подробнее</a></p>
+						<p class="domes__subtitle">Люкс премиум с джакузи</p></li>
+				</ul>
+			</section>
+			<section class="domes__hotels">
+				<div class="domes__tour">
+					<div class="domes__body">
+						<div class="domes__row">
+							<div class="domes__column domes__column_b">
+									<div class="explore__body">
+										<div class="explore__body-content">
+											<h2 class="explore__title">Лесная идиллия</h2>
+											<div class="explore__line"></div>
+											<div class="explore__text">Атмосферный персональный уголок счастья - уютный номер на двоих в сосновом бору позволит вам погрузиться в умиротворение и покой.  Расположившись на опушке, ваш номер позволит любоваться красивейшими закатами, и засыпать под умиротворяющий шум ветвей, вдыхая аромат первозданноой природы.</div>
+											<div class="explore__easy">
+												<div class="easy__icon">
+													<img src="img/easy_icon_1.png" alt="" />
+												</div>
+												<div class="easy__text">
+													<div class="easy__title">
+														Двухместный номер
+													</div>
+													<div class="easy__subtitle">
+														В номере двуспальная кровать, тумба с встроенным сейфом, зарядка для гаджетов.                                         
+													</div>
+												</div>
+											</div>
+											<div class="explore__easy explore__easy-two">
+												<div class="easy__icon">
+													<img src="img/easy_icon_2.png" alt="" />
+												</div>
+												<div class="easy__text">
+													<div class="easy__title">
+														Потрясающий вид
+													</div>
+													<div class="easy__subtitle">
+														Доинство номера - потрясающие закаты в атмосфере уединения в вашем маленьком персональном лесномя раю.
+													</div>
+												</div>
+											</div>
+											<div class="booking">
+							
+												<script> var calendarLang = 'ru'; </script>
+								
+													
+												<a href="javascript:void(0);" data-modal="#booking-modal" class="booking__btn">Забронировать</a>
+																	
+											
+											<div id="booking-modal" class="booking-modal-container" tabindex="-1">
+												<div class="booking-modal-wrapper">
+													<div class="booking-modal-bg"></div>
+													<div class="booking-modal-outer">
+														<div class="booking-modal__close close-modal">
+															<img src="img/close.svg" alt="close">
+														</div>
+														<div class="booking-modal">
+															<p class="booking-modal__title">Забронировать сейчас</p>
+											
+															<form id="booking-form" class="booking-modal__form" action="/booking/reserve" method="POST">
+											<input type="hidden" name="_csrf" value="L0CU7gQOUAfxsiVzyKKfm91LJO5WZL6W-Rjtys3CTFlOMfyiQH8RabjzbUKQ1ei2uAYcqWABydywe7n_mfEaDw==">
+																<div class="booking-modal__form-inner">
+																	<div class="booking-modal__step active booking-modal__step_first">
+																		<div class="booking-modal__content">
+																			<div class="field-flex">
+											
+																				<div class="field-wrap booking-modal__field field-arrival-date required">
+											<p class="field-wrap__title"><label class="control-label" for="arrival-date">Дата приезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="arrival-date" class="contacts__field" name="Booking[checkin_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+											</div>
+											
+																				<div class="field-wrap booking-modal__field field-departure-date required">
+											<p class="field-wrap__title"><label class="control-label" for="departure-date">Дата выезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="departure-date" class="contacts__field" name="Booking[checkout_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+											</div>
+																			</div>
+											
+																			<div class="field-flex field-flex_mobile">
+																				<div class="field-wrap booking-modal__field field-booking-adults required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-adults">Взрослые</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-adults" class="contacts__field" name="Booking[adults]" aria-required="true"></div>
+											</div>
+																				<div class="field-wrap booking-modal__field field-booking-children">
+											<p class="field-wrap__title"><label class="control-label" for="booking-children">Дети</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-children" class="contacts__field" name="Booking[children]"></div>
+											</div>
+																			</div>
+											
+																			
+																		</div>
+											
+																		<a href="javascript:void(0);" onclick="checkFirstStep(event)" class=" btn_lg next-step">Забронировать</a>
+																	</div>
+											
+																	<div class="booking-modal__step booking-modal__step_second">
+																		<div class="booking-modal__content">
+																			<div class="booking-modal__flex">
+																				<p class="booking-modal__info"></p>
+																				<a href="javascript:void(0);" onclick="prevStep(event)" class="booking-modal__back">Изменить информацию</a>
+																			</div>
+											
+																			<div class="field-flex">
+																				<div class="field-wrap booking-modal__field field-booking-firstname required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-firstname">Имя</label></p><div class="help-block"></div><input type="text" id="booking-firstname" class="contacts__field" name="Booking[firstname]" aria-required="true">
+											</div>
+																				<div class="field-wrap booking-modal__field field-booking-lastname required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-lastname">Фамилия</label></p><div class="help-block"></div><input type="text" id="booking-lastname" class="contacts__field" name="Booking[lastname]" aria-required="true">
+											</div>                                </div>
+											
+											
+																			<div class="field-wrap booking-modal__field field-booking-email required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-email">E-mail</label></p><div class="help-block"></div><input type="text" id="booking-email" class="contacts__field" name="Booking[email]" aria-required="true">
+											</div>
+											
+																			<div class="field-wrap booking-modal__field field-booking-phone required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-phone">Телефон</label></p><div class="help-block"></div><input type="text" id="booking-phone" class="contacts__field" name="Booking[phone]" aria-required="true">
+											</div>
+																			<div class="field-wrap booking-modal__field field-booking-language">
+											<input type="hidden" id="booking-language" class="form-control" name="Booking[language]" value="ru">
+											</div>                            </div>
+																		<p class="error-summary">Ошибка. Пожалуйста повторите или отправьте через контактную форму.</p>
+																		<input type="submit" value="Забронировать" class="btn btn_lg book-now">
+																	</div>
+																</div>
+											
+															</form>            </div>
+														<div class="booking-modal-success">
+															<p class="booking-modal__title">Спасибо!</p>
+															<div class="booking-modal__content">
+																<p class="booking-modal__info">Ваше сообщение было отправлено успешно.</p>
+															</div>
+											
+															<a href="javascript:void(0);" class="btn btn_lg close-modal">Закрыть</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								
+					
+							</div>
+							<div class="domes__column domes__column_l">
+								<div class="domes-slider swiper-container">
+									<!-- Слайдер -->
+									<div class="domes-slider__wrapper swiper-wrapper">
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/roms_01.jpg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_02.jpeg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_03.jpeg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_04.jpg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_05.jpg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_06.jpg" alt="Картинка">
+											</div>
+										</div>
+									</div>
+									<!-- Добавляем если нам нужны стрелки управления -->
+									<div class="swiper-button-prev domes-button-prev"></div>
+									<div class="swiper-button-next domes-button-next"></div>
+									<!-- Добавляем, если нам нужна пагинация -->
+									<div class="swiper-pagination"></div>
+									<!-- Фракция -->
+									<!-- 
+									<div class="image-slider__fraction">
+										<div class="image-slider__current">1</div>
+										<div class="image-slider__sepparator"> / </div>
+										<div class="image-slider__total">1</div>
+									</div>
+									 -->
+								</div>
+							</div>
+						</div>			
+					</div>
+							
+						</div>
+						<div class="domes__tour domes__tour_rev">
+					<div class="domes__body">
+						<div class="domes__row">
+							<div class="domes__column domes__column_b domes__column_b_rev">
+									<div class="explore__body">
+										<div class="explore__body-content">
+											<h2 class="explore__title">Стандартный номер</h2>
+											<div class="explore__line"></div>
+											<div class="explore__text">Демократичный номер состоит из надувного купола и делится на 2 сектора: зз прозрачной части купола открывается широкий обзор, но в то же время гости могут остаться скрытыми за непрозрачным сектором. Пузырь оборудован двуспальной кроватью, столиком и розетками для зарядки гаджетов...</div>
+											<div class="explore__easy">
+												<div class="easy__icon">
+													<img src="img/easy_icon_1.png" alt="" />
+												</div>
+												<div class="easy__text">
+													<div class="easy__title">
+														Двухместный номер
+													</div>
+													<div class="easy__subtitle">
+														В номере большая двуспальная кровать, тумба с встроенным сейфом, прикроватный столик, два кресла, зарядка для гаджетов.        
+													</div>
+												</div>
+											</div>
+											<div class="explore__easy explore__easy-two">
+												<div class="easy__icon">
+													<img src="img/easy_icon_2.png" alt="" />
+												</div>
+												<div class="easy__text">
+													<div class="easy__title">
+														Уют и комфорт
+													</div>
+													<div class="easy__subtitle">
+														Здесь все сделано так, что вы почувствуете себя как дома, а за порог вас будет ждать лесная идиллия, запах хвои и голубой небосвод.
+													</div>
+												</div>
+											</div>
+											<div class="booking">
+							
+												<script> var calendarLang = 'ru'; </script>
+								
+													
+												<a href="javascript:void(0);" data-modal="#booking-modal" class="booking__btn">Забронировать</a>
+																	
+											
+											<div id="booking-modal" class="booking-modal-container" tabindex="-1">
+												<div class="booking-modal-wrapper">
+													<div class="booking-modal-bg"></div>
+													<div class="booking-modal-outer">
+														<div class="booking-modal__close close-modal">
+															<img src="img/close.svg" alt="close">
+														</div>
+														<div class="booking-modal">
+															<p class="booking-modal__title">Забронировать сейчас</p>
+											
+															<form id="booking-form" class="booking-modal__form" action="/booking/reserve" method="POST">
+											<input type="hidden" name="_csrf" value="L0CU7gQOUAfxsiVzyKKfm91LJO5WZL6W-Rjtys3CTFlOMfyiQH8RabjzbUKQ1ei2uAYcqWABydywe7n_mfEaDw==">
+																<div class="booking-modal__form-inner">
+																	<div class="booking-modal__step active booking-modal__step_first">
+																		<div class="booking-modal__content">
+																			<div class="field-flex">
+											
+																				<div class="field-wrap booking-modal__field field-arrival-date required">
+											<p class="field-wrap__title"><label class="control-label" for="arrival-date">Дата приезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="arrival-date" class="contacts__field" name="Booking[checkin_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+											</div>
+											
+																				<div class="field-wrap booking-modal__field field-departure-date required">
+											<p class="field-wrap__title"><label class="control-label" for="departure-date">Дата выезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="departure-date" class="contacts__field" name="Booking[checkout_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+											</div>
+																			</div>
+											
+																			<div class="field-flex field-flex_mobile">
+																				<div class="field-wrap booking-modal__field field-booking-adults required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-adults">Взрослые</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-adults" class="contacts__field" name="Booking[adults]" aria-required="true"></div>
+											</div>
+																				<div class="field-wrap booking-modal__field field-booking-children">
+											<p class="field-wrap__title"><label class="control-label" for="booking-children">Дети</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-children" class="contacts__field" name="Booking[children]"></div>
+											</div>
+																			</div>
+											
+																			
+																		</div>
+											
+																		<a href="javascript:void(0);" onclick="checkFirstStep(event)" class=" btn_lg next-step">Забронировать</a>
+																	</div>
+											
+																	<div class="booking-modal__step booking-modal__step_second">
+																		<div class="booking-modal__content">
+																			<div class="booking-modal__flex">
+																				<p class="booking-modal__info"></p>
+																				<a href="javascript:void(0);" onclick="prevStep(event)" class="booking-modal__back">Изменить информацию</a>
+																			</div>
+											
+																			<div class="field-flex">
+																				<div class="field-wrap booking-modal__field field-booking-firstname required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-firstname">Имя</label></p><div class="help-block"></div><input type="text" id="booking-firstname" class="contacts__field" name="Booking[firstname]" aria-required="true">
+											</div>
+																				<div class="field-wrap booking-modal__field field-booking-lastname required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-lastname">Фамилия</label></p><div class="help-block"></div><input type="text" id="booking-lastname" class="contacts__field" name="Booking[lastname]" aria-required="true">
+											</div>                                </div>
+											
+											
+																			<div class="field-wrap booking-modal__field field-booking-email required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-email">E-mail</label></p><div class="help-block"></div><input type="text" id="booking-email" class="contacts__field" name="Booking[email]" aria-required="true">
+											</div>
+											
+																			<div class="field-wrap booking-modal__field field-booking-phone required">
+											<p class="field-wrap__title"><label class="control-label" for="booking-phone">Телефон</label></p><div class="help-block"></div><input type="text" id="booking-phone" class="contacts__field" name="Booking[phone]" aria-required="true">
+											</div>
+																			<div class="field-wrap booking-modal__field field-booking-language">
+											<input type="hidden" id="booking-language" class="form-control" name="Booking[language]" value="ru">
+											</div>                            </div>
+																		<p class="error-summary">Ошибка. Пожалуйста повторите или отправьте через контактную форму.</p>
+																		<input type="submit" value="Забронировать" class="btn btn_lg book-now">
+																	</div>
+																</div>
+											
+															</form>            </div>
+														<div class="booking-modal-success">
+															<p class="booking-modal__title">Спасибо!</p>
+															<div class="booking-modal__content">
+																<p class="booking-modal__info">Ваше сообщение было отправлено успешно.</p>
+															</div>
+											
+															<a href="javascript:void(0);" class="btn btn_lg close-modal">Закрыть</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								
+					
+							</div>
+							<div class="domes__column domes__column_l domes__column_l_rev">
+								<div class="domes-slider swiper-container">
+									
+									<div class="domes-slider__wrapper swiper-wrapper">
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/roms_02.jpeg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_01.jpg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_03.jpeg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_04.jpg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_05.jpg" alt="Картинка">
+											</div>
+										</div>
+										<div class="domes-slider__slide swiper-slide">
+											<div class="domes-slider__image ibg">
+												<img src="img/rooms_06.jpg" alt="Картинка">
+											</div>
+										</div>
+									</div>
+									
+									<div class="swiper-button-prev domes-button-prev"></div>
+									<div class="swiper-button-next domes-button-next"></div>
+									<!-- Добавляем, если нам нужна пагинация -->
+									<div class="swiper-pagination"></div>
+									<!-- Фракция -->
+									<!-- 
+									<div class="image-slider__fraction">
+										<div class="image-slider__current">1</div>
+										<div class="image-slider__sepparator"> / </div>
+										<div class="image-slider__total">1</div>
+									</div>
+									 -->
+								</div>
+							</div>
+						</div>
+			
+			
+					
+					
+			
+					</div>
+							
+						</div>
+						<div class="domes__tour">
+							<div class="domes__body">
+								<div class="domes__row">
+									<div class="domes__column domes__column_b">
+											<div class="explore__body">
+												<div class="explore__body-content">
+													<h2 class="explore__title">Семейный номер</h2>
+													<div class="explore__line"></div>
+													<div class="explore__text">Большой и комфортный экошатер в окружении соснового леса. 
+														Внутри двуспальная кровать с постельным бельем (трансформируется в односпальные), так же, по желанию гостей, может быть добавлено одно дополнительное спальное место... </div>
+													<div class="explore__easy">
+														<div class="easy__icon">
+															<img src="img/easy_icon_1.png" alt="" />
+														</div>
+														<div class="easy__text">
+															<div class="easy__title">
+																Трехместный номер
+															</div>
+															<div class="easy__subtitle">
+																В номере большая трехспальная кровать, приктроватный столик, тумба, зарядка для гаджетов.
+															</div>
+														</div>
+													</div>
+													<div class="explore__easy explore__easy-two">
+														<div class="easy__icon">
+															<img src="img/easy_icon_2.png" alt="" />
+														</div>
+														<div class="easy__text">
+															<div class="easy__title">
+																Идилия и релакс
+															</div>
+															<div class="easy__subtitle">
+																Устали от домашних хлопот, "бытовухи" и прочих прелестей рутины? Это номер позволить вам перезагрузиться и впитать в себя энергию природы.
+															</div>
+														</div>
+													</div>
+													<div class="booking">
+									
+														<script> var calendarLang = 'ru'; </script>
+										
+															
+														<a href="javascript:void(0);" data-modal="#booking-modal" class="booking__btn">Забронировать</a>
+																			
+													
+													<div id="booking-modal" class="booking-modal-container" tabindex="-1">
+														<div class="booking-modal-wrapper">
+															<div class="booking-modal-bg"></div>
+															<div class="booking-modal-outer">
+																<div class="booking-modal__close close-modal">
+																	<img src="img/close.svg" alt="close">
+																</div>
+																<div class="booking-modal">
+																	<p class="booking-modal__title">Забронировать сейчас</p>
+													
+																	<form id="booking-form" class="booking-modal__form" action="/booking/reserve" method="POST">
+													<input type="hidden" name="_csrf" value="L0CU7gQOUAfxsiVzyKKfm91LJO5WZL6W-Rjtys3CTFlOMfyiQH8RabjzbUKQ1ei2uAYcqWABydywe7n_mfEaDw==">
+																		<div class="booking-modal__form-inner">
+																			<div class="booking-modal__step active booking-modal__step_first">
+																				<div class="booking-modal__content">
+																					<div class="field-flex">
+													
+																						<div class="field-wrap booking-modal__field field-arrival-date required">
+													<p class="field-wrap__title"><label class="control-label" for="arrival-date">Дата приезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="arrival-date" class="contacts__field" name="Booking[checkin_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+													</div>
+													
+																						<div class="field-wrap booking-modal__field field-departure-date required">
+													<p class="field-wrap__title"><label class="control-label" for="departure-date">Дата выезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="departure-date" class="contacts__field" name="Booking[checkout_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+													</div>
+																					</div>
+													
+																					<div class="field-flex field-flex_mobile">
+																						<div class="field-wrap booking-modal__field field-booking-adults required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-adults">Взрослые</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-adults" class="contacts__field" name="Booking[adults]" aria-required="true"></div>
+													</div>
+																						<div class="field-wrap booking-modal__field field-booking-children">
+													<p class="field-wrap__title"><label class="control-label" for="booking-children">Дети</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-children" class="contacts__field" name="Booking[children]"></div>
+													</div>
+																					</div>
+													
+																					
+																				</div>
+													
+																				<a href="javascript:void(0);" onclick="checkFirstStep(event)" class=" btn_lg next-step">Забронировать</a>
+																			</div>
+													
+																			<div class="booking-modal__step booking-modal__step_second">
+																				<div class="booking-modal__content">
+																					<div class="booking-modal__flex">
+																						<p class="booking-modal__info"></p>
+																						<a href="javascript:void(0);" onclick="prevStep(event)" class="booking-modal__back">Изменить информацию</a>
+																					</div>
+													
+																					<div class="field-flex">
+																						<div class="field-wrap booking-modal__field field-booking-firstname required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-firstname">Имя</label></p><div class="help-block"></div><input type="text" id="booking-firstname" class="contacts__field" name="Booking[firstname]" aria-required="true">
+													</div>
+																						<div class="field-wrap booking-modal__field field-booking-lastname required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-lastname">Фамилия</label></p><div class="help-block"></div><input type="text" id="booking-lastname" class="contacts__field" name="Booking[lastname]" aria-required="true">
+													</div>                                </div>
+													
+													
+																					<div class="field-wrap booking-modal__field field-booking-email required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-email">E-mail</label></p><div class="help-block"></div><input type="text" id="booking-email" class="contacts__field" name="Booking[email]" aria-required="true">
+													</div>
+													
+																					<div class="field-wrap booking-modal__field field-booking-phone required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-phone">Телефон</label></p><div class="help-block"></div><input type="text" id="booking-phone" class="contacts__field" name="Booking[phone]" aria-required="true">
+													</div>
+																					<div class="field-wrap booking-modal__field field-booking-language">
+													<input type="hidden" id="booking-language" class="form-control" name="Booking[language]" value="ru">
+													</div>                            </div>
+																				<p class="error-summary">Ошибка. Пожалуйста повторите или отправьте через контактную форму.</p>
+																				<input type="submit" value="Забронировать" class="btn btn_lg book-now">
+																			</div>
+																		</div>
+													
+																	</form>            </div>
+																<div class="booking-modal-success">
+																	<p class="booking-modal__title">Спасибо!</p>
+																	<div class="booking-modal__content">
+																		<p class="booking-modal__info">Ваше сообщение было отправлено успешно.</p>
+																	</div>
+													
+																	<a href="javascript:void(0);" class="btn btn_lg close-modal">Закрыть</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												</div>
+											</div>
+										
+							
+									</div>
+									<div class="domes__column domes__column_l">
+										<div class="domes-slider swiper-container">
+											<!-- Слайдер -->
+											<div class="domes-slider__wrapper swiper-wrapper">
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_04.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_02.jpeg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_03.jpeg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/roms_01.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_05.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_06.jpg" alt="Картинка">
+													</div>
+												</div>
+											</div>
+											<!-- Добавляем если нам нужны стрелки управления -->
+											<div class="swiper-button-prev domes-button-prev"></div>
+											<div class="swiper-button-next domes-button-next"></div>
+											<!-- Добавляем, если нам нужна пагинация -->
+											<div class="swiper-pagination"></div>
+											<!-- Фракция -->
+											<!-- 
+											<div class="image-slider__fraction">
+												<div class="image-slider__current">1</div>
+												<div class="image-slider__sepparator"> / </div>
+												<div class="image-slider__total">1</div>
+											</div>
+											 -->
+										</div>
+									</div>
+								</div>
+							
+							</div>
+									
+						</div>
+						<div class="domes__tour domes__tour_rev">
+							<div class="domes__body">
+								<div class="domes__row">
+									<div class="domes__column domes__column_b domes__column_b_rev">
+											<div class="explore__body">
+												<div class="explore__body-content">
+													<h2 class="explore__title">Люкс</h2>
+													<div class="explore__line"></div>
+													<div class="explore__text">У купола имеется своя терраса для релакса, йоги или романтического ужина. Гостям предоставляется: wi-fi, душ, кондиционер, двухспальная кровать, возможность установить 2 дополнительных спальных места, камин на дровах, дизайнерский интерьер в стиле БОХО... </div>
+													<div class="explore__easy">
+														<div class="easy__icon">
+															<img src="img/easy_icon_1.png" alt="" />
+														</div>
+														<div class="easy__text">
+															<div class="easy__title">
+																Трехместный номер
+															</div>
+															<div class="easy__subtitle">
+																Большая трехместная кровать, два кресла, шкаф-купе, мини-бар, сейф.
+															</div>
+														</div>
+													</div>
+													<div class="explore__easy explore__easy-two">
+														<div class="easy__icon">
+															<img src="img/easy_icon_2.png" alt="" />
+														</div>
+														<div class="easy__text">
+															<div class="easy__title">
+																Комфортный релакс
+															</div>
+															<div class="easy__subtitle">
+																Любите природу, но в то же время цените комфорт и домашний уют? Тогда наш люкс - для вас. Здесь в окунетесь в блаженство на лоне природы, буквально "не выходя из дома".
+															</div>
+														</div>
+													</div>
+													<div class="booking">
+									
+														<script> var calendarLang = 'ru'; </script>
+										
+															
+														<a href="javascript:void(0);" data-modal="#booking-modal" class="booking__btn">Забронировать</a>
+																			
+													
+													<div id="booking-modal" class="booking-modal-container" tabindex="-1">
+														<div class="booking-modal-wrapper">
+															<div class="booking-modal-bg"></div>
+															<div class="booking-modal-outer">
+																<div class="booking-modal__close close-modal">
+																	<img src="img/close.svg" alt="close">
+																</div>
+																<div class="booking-modal">
+																	<p class="booking-modal__title">Забронировать сейчас</p>
+													
+																	<form id="booking-form" class="booking-modal__form" action="/booking/reserve" method="POST">
+													<input type="hidden" name="_csrf" value="L0CU7gQOUAfxsiVzyKKfm91LJO5WZL6W-Rjtys3CTFlOMfyiQH8RabjzbUKQ1ei2uAYcqWABydywe7n_mfEaDw==">
+																		<div class="booking-modal__form-inner">
+																			<div class="booking-modal__step active booking-modal__step_first">
+																				<div class="booking-modal__content">
+																					<div class="field-flex">
+													
+																						<div class="field-wrap booking-modal__field field-arrival-date required">
+													<p class="field-wrap__title"><label class="control-label" for="arrival-date">Дата приезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="arrival-date" class="contacts__field" name="Booking[checkin_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+													</div>
+													
+																						<div class="field-wrap booking-modal__field field-departure-date required">
+													<p class="field-wrap__title"><label class="control-label" for="departure-date">Дата выезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="departure-date" class="contacts__field" name="Booking[checkout_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+													</div>
+																					</div>
+													
+																					<div class="field-flex field-flex_mobile">
+																						<div class="field-wrap booking-modal__field field-booking-adults required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-adults">Взрослые</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-adults" class="contacts__field" name="Booking[adults]" aria-required="true"></div>
+													</div>
+																						<div class="field-wrap booking-modal__field field-booking-children">
+													<p class="field-wrap__title"><label class="control-label" for="booking-children">Дети</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-children" class="contacts__field" name="Booking[children]"></div>
+													</div>
+																					</div>
+													
+																					
+																				</div>
+													
+																				<a href="javascript:void(0);" onclick="checkFirstStep(event)" class=" btn_lg next-step">Забронировать</a>
+																			</div>
+													
+																			<div class="booking-modal__step booking-modal__step_second">
+																				<div class="booking-modal__content">
+																					<div class="booking-modal__flex">
+																						<p class="booking-modal__info"></p>
+																						<a href="javascript:void(0);" onclick="prevStep(event)" class="booking-modal__back">Изменить информацию</a>
+																					</div>
+													
+																					<div class="field-flex">
+																						<div class="field-wrap booking-modal__field field-booking-firstname required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-firstname">Имя</label></p><div class="help-block"></div><input type="text" id="booking-firstname" class="contacts__field" name="Booking[firstname]" aria-required="true">
+													</div>
+																						<div class="field-wrap booking-modal__field field-booking-lastname required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-lastname">Фамилия</label></p><div class="help-block"></div><input type="text" id="booking-lastname" class="contacts__field" name="Booking[lastname]" aria-required="true">
+													</div>                                </div>
+													
+													
+																					<div class="field-wrap booking-modal__field field-booking-email required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-email">E-mail</label></p><div class="help-block"></div><input type="text" id="booking-email" class="contacts__field" name="Booking[email]" aria-required="true">
+													</div>
+													
+																					<div class="field-wrap booking-modal__field field-booking-phone required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-phone">Телефон</label></p><div class="help-block"></div><input type="text" id="booking-phone" class="contacts__field" name="Booking[phone]" aria-required="true">
+													</div>
+																					<div class="field-wrap booking-modal__field field-booking-language">
+													<input type="hidden" id="booking-language" class="form-control" name="Booking[language]" value="ru">
+													</div>                            </div>
+																				<p class="error-summary">Ошибка. Пожалуйста повторите или отправьте через контактную форму.</p>
+																				<input type="submit" value="Забронировать" class="btn btn_lg book-now">
+																			</div>
+																		</div>
+													
+																	</form>            </div>
+																<div class="booking-modal-success">
+																	<p class="booking-modal__title">Спасибо!</p>
+																	<div class="booking-modal__content">
+																		<p class="booking-modal__info">Ваше сообщение было отправлено успешно.</p>
+																	</div>
+													
+																	<a href="javascript:void(0);" class="btn btn_lg close-modal">Закрыть</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												</div>
+											</div>
+										
+							
+									</div>
+									<div class="domes__column domes__column_l domes__column_l_rev">
+										<div class="domes-slider swiper-container">
+											<!-- Слайдер -->
+											<div class="domes-slider__wrapper swiper-wrapper">
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_03.jpeg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_02.jpeg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/roms_01.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_04.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_05.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_06.jpg" alt="Картинка">
+													</div>
+												</div>
+											</div>
+											<!-- Добавляем если нам нужны стрелки управления -->
+											<div class="swiper-button-prev domes-button-prev"></div>
+											<div class="swiper-button-next domes-button-next"></div>
+											<!-- Добавляем, если нам нужна пагинация -->
+											<div class="swiper-pagination"></div>
+											<!-- Фракция -->
+											<!-- 
+											<div class="image-slider__fraction">
+												<div class="image-slider__current">1</div>
+												<div class="image-slider__sepparator"> / </div>
+												<div class="image-slider__total">1</div>
+											</div>
+											 -->
+										</div>
+									</div>
+								</div>
+
+							</div>
+									
+						</div>
+						<div class="domes__tour">
+							<div class="domes__body">
+								<div class="domes__row">
+									<div class="domes__column domes__column_b">
+											<div class="explore__body">
+												<div class="explore__body-content">
+													<h2 class="explore__title">Люкс премиум с джакузи</h2>
+													<div class="explore__line"></div>
+													<div class="explore__text">Отдельно стоящие в лесной части парк-отеля купольные номера с террасой и зоной джакузи. Площадь каждого номера — 60 кв.м. В номере кровать King Size, зона прихожей, шкаф, телевизор, кондиционер, мини-бар, чайный набор, санузел с душевой кабиной, на террасе с живописным видом джакузи...</div>
+													<div class="explore__easy">
+														<div class="easy__icon">
+															<img src="img/easy_icon_1.png" alt="" />
+														</div>
+														<div class="easy__text">
+															<div class="easy__title">
+																Семиместный номер
+															</div>
+															<div class="easy__subtitle">
+																Одна трехспальная кровать King Size и двуспальные кровати, придомовая территоррия - 40 кв.м., своя встроенная кухня, два биотуалета, два шкафа-купе, два телевизора и большое джакузи возле дома.
+															</div>
+														</div>
+													</div>
+													<div class="explore__easy explore__easy-two">
+														<div class="easy__icon">
+															<img src="img/easy_icon_2.png" alt="" />
+														</div>
+														<div class="easy__text">
+															<div class="easy__title">
+																Отдых без забот
+															</div>
+															<div class="easy__subtitle">
+																Этот номер позволит вам окунуться в настояющую сказку - все удобства, огромная территория, шикарное джакузи - и все это в центре райского леса!
+															</div>
+														</div>
+													</div>
+													<div class="booking">
+									
+														<script> var calendarLang = 'ru'; </script>
+										
+															
+														<a href="javascript:void(0);" data-modal="#booking-modal" class="booking__btn">Забронировать</a>
+																			
+													
+													<div id="booking-modal" class="booking-modal-container" tabindex="-1">
+														<div class="booking-modal-wrapper">
+															<div class="booking-modal-bg"></div>
+															<div class="booking-modal-outer">
+																<div class="booking-modal__close close-modal">
+																	<img src="img/close.svg" alt="close">
+																</div>
+																<div class="booking-modal">
+																	<p class="booking-modal__title">Забронировать сейчас</p>
+													
+																	<form id="booking-form" class="booking-modal__form" action="/booking/reserve" method="POST">
+													<input type="hidden" name="_csrf" value="L0CU7gQOUAfxsiVzyKKfm91LJO5WZL6W-Rjtys3CTFlOMfyiQH8RabjzbUKQ1ei2uAYcqWABydywe7n_mfEaDw==">
+																		<div class="booking-modal__form-inner">
+																			<div class="booking-modal__step active booking-modal__step_first">
+																				<div class="booking-modal__content">
+																					<div class="field-flex">
+													
+																						<div class="field-wrap booking-modal__field field-arrival-date required">
+													<p class="field-wrap__title"><label class="control-label" for="arrival-date">Дата приезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="arrival-date" class="contacts__field" name="Booking[checkin_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+													</div>
+													
+																						<div class="field-wrap booking-modal__field field-departure-date required">
+													<p class="field-wrap__title"><label class="control-label" for="departure-date">Дата выезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="departure-date" class="contacts__field" name="Booking[checkout_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+													</div>
+																					</div>
+													
+																					<div class="field-flex field-flex_mobile">
+																						<div class="field-wrap booking-modal__field field-booking-adults required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-adults">Взрослые</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-adults" class="contacts__field" name="Booking[adults]" aria-required="true"></div>
+													</div>
+																						<div class="field-wrap booking-modal__field field-booking-children">
+													<p class="field-wrap__title"><label class="control-label" for="booking-children">Дети</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-children" class="contacts__field" name="Booking[children]"></div>
+													</div>
+																					</div>
+													
+																					
+																				</div>
+													
+																				<a href="javascript:void(0);" onclick="checkFirstStep(event)" class=" btn_lg next-step">Забронировать</a>
+																			</div>
+													
+																			<div class="booking-modal__step booking-modal__step_second">
+																				<div class="booking-modal__content">
+																					<div class="booking-modal__flex">
+																						<p class="booking-modal__info"></p>
+																						<a href="javascript:void(0);" onclick="prevStep(event)" class="booking-modal__back">Изменить информацию</a>
+																					</div>
+													
+																					<div class="field-flex">
+																						<div class="field-wrap booking-modal__field field-booking-firstname required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-firstname">Имя</label></p><div class="help-block"></div><input type="text" id="booking-firstname" class="contacts__field" name="Booking[firstname]" aria-required="true">
+													</div>
+																						<div class="field-wrap booking-modal__field field-booking-lastname required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-lastname">Фамилия</label></p><div class="help-block"></div><input type="text" id="booking-lastname" class="contacts__field" name="Booking[lastname]" aria-required="true">
+													</div>                                </div>
+													
+													
+																					<div class="field-wrap booking-modal__field field-booking-email required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-email">E-mail</label></p><div class="help-block"></div><input type="text" id="booking-email" class="contacts__field" name="Booking[email]" aria-required="true">
+													</div>
+													
+																					<div class="field-wrap booking-modal__field field-booking-phone required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-phone">Телефон</label></p><div class="help-block"></div><input type="text" id="booking-phone" class="contacts__field" name="Booking[phone]" aria-required="true">
+													</div>
+																					<div class="field-wrap booking-modal__field field-booking-language">
+													<input type="hidden" id="booking-language" class="form-control" name="Booking[language]" value="ru">
+													</div>                            </div>
+																				<p class="error-summary">Ошибка. Пожалуйста повторите или отправьте через контактную форму.</p>
+																				<input type="submit" value="Забронировать" class="btn btn_lg book-now">
+																			</div>
+																		</div>
+													
+																	</form>            </div>
+																<div class="booking-modal-success">
+																	<p class="booking-modal__title">Спасибо!</p>
+																	<div class="booking-modal__content">
+																		<p class="booking-modal__info">Ваше сообщение было отправлено успешно.</p>
+																	</div>
+													
+																	<a href="javascript:void(0);" class="btn btn_lg close-modal">Закрыть</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												</div>
+											</div>
+										
+							
+									</div>
+									<div class="domes__column domes__column_l">
+										<div class="domes-slider swiper-container">
+											<!-- Слайдер -->
+											<div class="domes-slider__wrapper swiper-wrapper">
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_02.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_02.jpeg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_03.jpeg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_04.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_05.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_06.jpg" alt="Картинка">
+													</div>
+												</div>
+											</div>
+											<!-- Добавляем если нам нужны стрелки управления -->
+											<div class="swiper-button-prev domes-button-prev"></div>
+											<div class="swiper-button-next domes-button-next"></div>
+											<!-- Добавляем, если нам нужна пагинация -->
+											<div class="swiper-pagination"></div>
+											<!-- Фракция -->
+											<!-- 
+											<div class="image-slider__fraction">
+												<div class="image-slider__current">1</div>
+												<div class="image-slider__sepparator"> / </div>
+												<div class="image-slider__total">1</div>
+											</div>
+											 -->
+										</div>
+									</div>
+								</div>
+			
+					
+							</div>
+									
+						</div>
+						<div class="domes__tour domes__tour_rev">
+							<div class="domes__body">
+								<div class="domes__row">
+									<div class="domes__column domes__column_b domes__column_b_rev">
+											<div class="explore__body">
+												<div class="explore__body-content">
+													<h2 class="explore__title">Премиум с терассой и мангалом</h2>
+													<div class="explore__line"></div>
+													<div class="explore__text">Теплый экодомик в виде геодезического купола Фуллера с камином на дровах, био туалетом, большим панорамным окном, столиком внутри и на улице, мангалом и удобными кроватями. Внутри и на территории имеется все необходимое для отдыха...</div>
+													<div class="explore__easy">
+														<div class="easy__icon">
+															<img src="img/easy_icon_1.png" alt="" />
+														</div>
+														<div class="easy__text">
+															<div class="easy__title">
+																Пятиместный номер
+															</div>
+															<div class="easy__subtitle">
+																Две трехспальные кровати, большой шкаф купе, пять кресел, встроенная мини-кухня, бар, холодильник, телевизор.
+															</div>
+														</div>
+													</div>
+													<div class="explore__easy explore__easy-two">
+														<div class="easy__icon">
+															<img src="img/easy_icon_2.png" alt="" />
+														</div>
+														<div class="easy__text">
+															<div class="easy__title">
+																Элитный отдых
+															</div>
+															<div class="easy__subtitle">
+															Это огромный номер иделаьно подойдет для дружной компании либо двух пар, для которых комфорт - не пустой звук, а веранда со сногшибательным видом на опушку леса поразит ваше воображение.
+															</div>
+														</div>
+													</div>
+													<div class="booking">
+									
+														<script> var calendarLang = 'ru'; </script>
+										
+															
+														<a href="javascript:void(0);" data-modal="#booking-modal" class="booking__btn">Забронировать</a>
+																			
+													
+													<div id="booking-modal" class="booking-modal-container" tabindex="-1">
+														<div class="booking-modal-wrapper">
+															<div class="booking-modal-bg"></div>
+															<div class="booking-modal-outer">
+																<div class="booking-modal__close close-modal">
+																	<img src="img/close.svg" alt="close">
+																</div>
+																<div class="booking-modal">
+																	<p class="booking-modal__title">Забронировать сейчас</p>
+													
+																	<form id="booking-form" class="booking-modal__form" action="/booking/reserve" method="POST">
+													<input type="hidden" name="_csrf" value="L0CU7gQOUAfxsiVzyKKfm91LJO5WZL6W-Rjtys3CTFlOMfyiQH8RabjzbUKQ1ei2uAYcqWABydywe7n_mfEaDw==">
+																		<div class="booking-modal__form-inner">
+																			<div class="booking-modal__step active booking-modal__step_first">
+																				<div class="booking-modal__content">
+																					<div class="field-flex">
+													
+																						<div class="field-wrap booking-modal__field field-arrival-date required">
+													<p class="field-wrap__title"><label class="control-label" for="arrival-date">Дата приезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="arrival-date" class="contacts__field" name="Booking[checkin_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+													</div>
+													
+																						<div class="field-wrap booking-modal__field field-departure-date required">
+													<p class="field-wrap__title"><label class="control-label" for="departure-date">Дата выезда</label></p><div class="help-block"></div><label class="field-date-outer"><input type="text" id="departure-date" class="contacts__field" name="Booking[checkout_date]" placeholder="dd.mm.yyyy" aria-required="true"></label>
+													</div>
+																					</div>
+													
+																					<div class="field-flex field-flex_mobile">
+																						<div class="field-wrap booking-modal__field field-booking-adults required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-adults">Взрослые</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-adults" class="contacts__field" name="Booking[adults]" aria-required="true"></div>
+													</div>
+																						<div class="field-wrap booking-modal__field field-booking-children">
+													<p class="field-wrap__title"><label class="control-label" for="booking-children">Дети</label></p><div class="help-block"></div><div class="field-number-outer"><input type="number" id="booking-children" class="contacts__field" name="Booking[children]"></div>
+													</div>
+																					</div>
+													
+																					
+																				</div>
+													
+																				<a href="javascript:void(0);" onclick="checkFirstStep(event)" class=" btn_lg next-step">Забронировать</a>
+																			</div>
+													
+																			<div class="booking-modal__step booking-modal__step_second">
+																				<div class="booking-modal__content">
+																					<div class="booking-modal__flex">
+																						<p class="booking-modal__info"></p>
+																						<a href="javascript:void(0);" onclick="prevStep(event)" class="booking-modal__back">Изменить информацию</a>
+																					</div>
+													
+																					<div class="field-flex">
+																						<div class="field-wrap booking-modal__field field-booking-firstname required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-firstname">Имя</label></p><div class="help-block"></div><input type="text" id="booking-firstname" class="contacts__field" name="Booking[firstname]" aria-required="true">
+													</div>
+																						<div class="field-wrap booking-modal__field field-booking-lastname required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-lastname">Фамилия</label></p><div class="help-block"></div><input type="text" id="booking-lastname" class="contacts__field" name="Booking[lastname]" aria-required="true">
+													</div>                                </div>
+													
+													
+																					<div class="field-wrap booking-modal__field field-booking-email required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-email">E-mail</label></p><div class="help-block"></div><input type="text" id="booking-email" class="contacts__field" name="Booking[email]" aria-required="true">
+													</div>
+													
+																					<div class="field-wrap booking-modal__field field-booking-phone required">
+													<p class="field-wrap__title"><label class="control-label" for="booking-phone">Телефон</label></p><div class="help-block"></div><input type="text" id="booking-phone" class="contacts__field" name="Booking[phone]" aria-required="true">
+													</div>
+																					<div class="field-wrap booking-modal__field field-booking-language">
+													<input type="hidden" id="booking-language" class="form-control" name="Booking[language]" value="ru">
+													</div>                            </div>
+																				<p class="error-summary">Ошибка. Пожалуйста повторите или отправьте через контактную форму.</p>
+																				<input type="submit" value="Забронировать" class="btn btn_lg book-now">
+																			</div>
+																		</div>
+													
+																	</form>            </div>
+																<div class="booking-modal-success">
+																	<p class="booking-modal__title">Спасибо!</p>
+																	<div class="booking-modal__content">
+																		<p class="booking-modal__info">Ваше сообщение было отправлено успешно.</p>
+																	</div>
+													
+																	<a href="javascript:void(0);" class="btn btn_lg close-modal">Закрыть</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												</div>
+											</div>
+										
+							
+									</div>
+									<div class="domes__column domes__column_l domes__column_l_rev">
+										<div class="domes-slider swiper-container">
+											<!-- Слайдер -->
+											<div class="domes-slider__wrapper swiper-wrapper">
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_05.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_02.jpeg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_03.jpeg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_04.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/roms_01.jpg" alt="Картинка">
+													</div>
+												</div>
+												<div class="domes-slider__slide swiper-slide">
+													<div class="domes-slider__image ibg">
+														<img src="img/rooms_06.jpg" alt="Картинка">
+													</div>
+												</div>
+											</div>
+											<!-- Добавляем если нам нужны стрелки управления -->
+											<div class="swiper-button-prev domes-button-prev"></div>
+											<div class="swiper-button-next domes-button-next"></div>
+											<!-- Добавляем, если нам нужна пагинация -->
+											<div class="swiper-pagination"></div>
+											<!-- Фракция -->
+											<!-- 
+											<div class="image-slider__fraction">
+												<div class="image-slider__current">1</div>
+												<div class="image-slider__sepparator"> / </div>
+												<div class="image-slider__total">1</div>
+											</div>
+											 -->
+										</div>
+									</div>
+								</div>
+					
+					
+							
+							
+					
+							</div>
+									
+						</div>
+			</section>
+
+
+
+			<section class="trusted" id="trusted">
+				<div class="container">
+				<div class="features__top features__top-watch features__top-watch-down">
+					<h4 class="features__top-title">Пресса о нас</h4>
+					<div class="features__top-line"></div>
+					<div class="features__top-subtile">Рензиии на наш глэмпинг от топовых путешственников
+					</div>
+				</div>
+				<div class="vogue">
+					<div class="vogue-image"><img src="img/tripadavisor.png" alt="" /></div>
+		
+				</div>
+				<div class="vogue__bottom">
+					<div class="vogue__bottom-row">
+						<div class="vogue__column">
+							<div class="vogue__column-main">
+								<p>
+									Еда - это то место, куда можно приехать без своих запасов) каждого приема еды ждешь с нетерпением и интересом, что же на этот раз придумают замечательные Наталья и Юлия!) завтрак, обед и ужин - всегда невероятно вкусные, есть чай и кофе целый день, и даже если проспать завтрак, то вас не оставят голодными ;) а если у вас большая компания, то есть возможность организовать застолье с настоящим пловом на мангале! 
+Ещё появился замечательный холодильник с отменным пивом и сидром, самым любым, на разные вкусы. 
+Персонал - замечательные и душевные люди, абсолютно все, без исключения. Администратор Анастасия - чуткая и всегда готовая помочь, Наталья и Юлия - помимо того, что отменные повара, еще заботливые и талантливые люди;) 
+								</p>
+							</div>
+							<div class="vogue__column-bottom">
+								<div class="vogue__column-bottom-title">Йоргос Лантимос</div>
+								<div class="vogue__column-bottom-subtitle">Журналист</div>
+							</div>
+						</div>
+						<div class="vogue__column">
+							<div class="vogue__column-main">
+								<p>
+									Приятное место, настоящий лес вокруг, позитивные люди, вкусная еда. Нам особенно понравилось, что оно в простом, деревенском стиле, нет московской вылизанности, при этом все приятно, чисто и стильно выглядит. Сильно выигрывает на фоне других подобных мест позитивным и участливым персоналом - надеюсь, это не изменится! Территория довольно большая, есть где погулять, а ещё круто, что вай-фай и сеть работают только в большом доме - настоящий digital detox. Готовят потрясающие, всё очень вкусно и разнообразно. На территории всё хорошо продуманно, комфортные туалеты и душевые. В шатре достаточно места, уютно. Везде хороший интерьер, огоньки-фонарики, очень красиво и душевно.
+								</p>
+							</div>
+							<div class="vogue__column-bottom">
+								<div class="vogue__column-bottom-title">Инга Середо</div>
+								<div class="vogue__column-bottom-subtitle">Блогер</div>
+							</div>
+						</div>
+						<div class="vogue__column">
+							<div class="vogue__column-main">
+								<p>
+									Все как в инстаграме :) большая территория, красивая природа, чистый вкусный воздух, красивый декор днем и ночью, много фотозон, вкусная еда (приходить лучше к началу обеда или завтрака). Есть холодильник с крафтом на продажу, в течение дня можно попить чай. Вечером наливают пунш у костра. Можно привезти мясо и приготовить его на одном из многочисленных мангалов. В шатрах красиво и чисто, стоит по два обогревателя - ночью совсем не холодно, хотя на улице было весьма освежающе (были в сентябре). Везде очень чисто, достаточное количество умывальников и туалетов. Персонал приветливый и старается, особое спасибо кухне, все очень с душой. Из доп услуг мы ничем не пользовались, тк хотелось просто почиллить. 
+								</p>
+							</div>
+							<div class="vogue__column-bottom">
+								<div class="vogue__column-bottom-title">Клио Сантано</div>
+								<div class="vogue__column-bottom-subtitle">Корреспондент Journal Magazin</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			
+				
+			</div>
+			</section>
+
+			
+			<footer>
+				<div class='container'>
+					<div class="sec aboutus">
+						<h2>О Нас</h2>
+						<p>Отправьтесь в приключение в наш глэмпинг-отель Patagonia, отмеченный множеством наград и расположенный экологически чистом купольном отеле в национальном парке Торрес-дель-Пайне. Чистейший воздух, кофтортные номера с умопомрачительный видом на звездное небо среди лесного уюта и природного релакса. </p>
+						<ul class="sci">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+						</ul>
+					</div>
+					<div class="sec quicklinks">
+						<h2>Информация</h2>
+						<ul>
+							<li><a href="#">Условия проживания</a></li>
+							<li><a href="#">Цена</a></li>
+							<li><a href="#">Бронирование</a></li>
+							<li><a href="#">Страховка</a></li>
+							<li><a href="#">Ответы на вопросы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="sec contact__f">
+						<h2>Связатья с нами</h2>
+						<ul class="footer__info">
+							<li>
+								<span><i class="fa fa-map-marker"></i></span>
+								<p>3863 Республика Алтай<br>
+									Поселок Кара-Кудюр</p>
+							</li>
+							<li>
+								<span><i class="fa fa-phone"></i></span>
+								<p><a href="tel:+12345678900">+8 234 456 7890</a><br><a href="tel:+12345678900">+9 012 345 6789</a></p>
+							</li>
+							<li>
+								<span><i class="fa fa-envelope"></i></span>
+								<p><a href="mailto:altayglampre@email.com">altayglampre@email.com</a></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</main>
+
+	</div>
+
+	<script type="text/javascript">
+		function imgSlider(anything){
+			document.getElementById("slider").src = anything;
+		}
+	</script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
+
+<script src="js/main.js"></script>
+<script src="js/custom.js" ></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+
+
+	<!-- 	<script src="skrollr.js"></script> -->
+	<!-- 	<script type="text/javascript">
+		var s = skrollr.init();
+	</script> -->
+	<!-- Подключаем jQuery -->
+	<script src="js/lib.js"></script>
+	<script src="js/bron.js"></script>
+	<script src="js/select.js"></script>
+	<script> var calendarLang = 'ru'; </script>
+
+    
+</body>
+
+</html>
